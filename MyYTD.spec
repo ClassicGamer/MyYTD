@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['youtube_downloader4.py'],
+    ['MyYTD.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='youtube_downloader4',
+    name='MyYTD',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -41,7 +41,7 @@ exe = EXE(
 
 block_cipher = None
 
-a = Analysis(['youtube_downloader4.py'],
+a = Analysis(['MyYTD.py'],
              pathex=['.'],
              binaries=[('C:/ffmpeg/bin/ffmpeg.exe', '.')],  # Voeg ffmpeg toe
              datas=[],
